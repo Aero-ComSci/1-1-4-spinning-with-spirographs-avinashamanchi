@@ -86,6 +86,7 @@ draw_concentric_squares_with_colors(20, colors)
 
 This script showcases how to use the `turtle` module for creating colorful, concentric patterns and is a great example of programmatic drawing in Python.
 
+# Clever PLTW activities 
 
 
 
