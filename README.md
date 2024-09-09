@@ -64,7 +64,6 @@ colors = [
 
 draw_concentric_squares_with_colors(10, colors)
 
-# Draw 10 concentric squares with the defined colors
 draw_concentric_squares_with_colors(10, colors)
 ```
 ## What the Code Does
