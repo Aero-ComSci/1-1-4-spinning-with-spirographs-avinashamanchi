@@ -157,6 +157,7 @@ This script showcases how to use the `turtle` module for creating colorful, conc
 + completed on the file pltw171819.py
 
 # Project 5: Answer to 21
+- The algorithm from this activity that the flowchart represent is the program that we used and fixed earlier in this pltw 1.1.4 activity to avoid a zero iteration condition and make sure that we are able to draw five circles
 
 # Project 6: Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
 ![image](https://github.com/user-attachments/assets/5578aaa0-cad9-4eb3-b024-20536742b191)
