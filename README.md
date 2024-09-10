@@ -227,6 +227,7 @@ wn.mainloop()
 
 # Project 6: Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
 ![image](https://github.com/user-attachments/assets/5578aaa0-cad9-4eb3-b024-20536742b191)
+- this code is the tokenizer that me and my partner used on the previous project for 1.1.3
 
 # Project 7: Give an example of an undecidable problem, attach code.
 ### Overview
