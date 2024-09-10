@@ -64,6 +64,7 @@ An infinite loop is a loop that continues to execute indefinitely because its te
 - **Infinite Loops**: Requires mechanisms for termination and handling potential issues arising from continuous execution.
 
 # Project 2: A link to your code where you solve the following problem. Take the screen size of 800px. Create code or algorithm that always places the object(s), up to 5, in the center an equal distance from one another and from the edges of the screen.
+- done on equaldistance.py file 
 
 # Project 3: Concentric Squares -- Add a screenshot of your result and the code to create it on your repo. Objective: Write a Python program using the turtle module to draw a pattern of concentric squares. The pattern should be created using nested loops.
 
