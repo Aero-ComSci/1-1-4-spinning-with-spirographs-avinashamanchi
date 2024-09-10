@@ -128,6 +128,9 @@ colors = [
 draw_concentric_squares_with_colors(20, colors)
 
 ```
+## Result 
+![image](https://github.com/user-attachments/assets/d8c886ae-2388-44a7-8d94-f94bfdaa93bb)
+
 ## What the Code Does
 
 1. **Setup the Drawing Environment**:
