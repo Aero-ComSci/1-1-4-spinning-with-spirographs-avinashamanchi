@@ -164,6 +164,43 @@ This script showcases how to use the `turtle` module for creating colorful, conc
 # Project 6: Insert a screenshot or picture of the algorith you used for your tokenizer on the previous activity.
 ![image](https://github.com/user-attachments/assets/5578aaa0-cad9-4eb3-b024-20536742b191)
 - this code is the tokenizer that me and my partner used on the previous project for 1.1.3
+## `parse_and_draw_flowers` Function
+
+The `parse_and_draw_flowers` function is designed to interpret user input to determine which flowers to draw and in what quantities. It then uses predefined drawing functions to render these flowers on a canvas. 
+
+## Function Breakdown
+### 1. Setup
+
+- **Misspelled Flower Names:** The function begins by creating a dictionary that maps plural forms and common misspellings of flower names to their singular forms. This ensures that variations in the input are handled correctly.
+
+- **Initializing Flower Counts:** It sets up a dictionary to keep track of how many of each type of flower to draw. Initially, the count for each flower type is set to zero.
+
+- **Starting Positions for Flowers:** The function defines starting coordinates for each type of flower. These coordinates determine where each flower will begin to be drawn on the canvas.
+
+### 2. Parsing User Input
+
+- **Expression for Parsing:** A regular expression is used to identify the quantity and type of flowers specified in the user input. This pattern accounts for both singular and plural forms of flower names and is case-insensitive.
+
+- **Finding Matches:** The function applies this regular expression to the user input to extract all relevant counts and flower names.
+
+### 3. Error Handling and Flower Count Calculation
+
+- **Handling No Matches Found:** If the regular expression does not find any valid flower names in the user input, the function raises an error. This prompts the user to provide valid input.
+
+- **Processing Matches:** For each match found, the function converts plural flower names to their singular forms using the earlier defined mapping. It then updates the flower counts based on the quantities specified in the input.
+
+- **Ensuring Total Flower Limit:** The function calculates the total number of flowers requested and ensures that it does not exceed the limit of five. If the total count exceeds this limit, it raises an error.
+
+### 4. Drawing the Flowers
+
+- **Drawing Logic:** The function initializes the drawing process by setting up starting positions and offsets for each type of flower. It calculates where each flower should be drawn based on the count specified and the initial position.
+
+- **Calculating Positions and Drawing:** For each flower, the function calculates the position on the canvas where the flower will be drawn, updates the coordinates as needed, and draws the flower. It ensures that no more than five flowers are drawn in total.
+
+### 5. Error Handling
+
+- **Handling Exceptions:** If any errors occur during the process (e.g., due to invalid input or exceeding limits), the function catches these exceptions. It then displays an error message on the canvas to inform the user of the issue.
+
 
 # Project 7: Give an example of an undecidable problem, attach code.
 ### Overview
