@@ -3,7 +3,7 @@
 # Project 1: Compare and contrast zero-iteration conditions and infinite loops.
 # Zero-Iteration Conditions
 ### Definition
-A zero-iteration condition refers to a situation where a loop or a similar construct is designed to run zero times based on its initial conditions. This typically happens when the loop's condition is immediately false at the start.
+A zero-iteration condition refers to a situation where a loop or a similar thing is designed to run zero times based on its initial conditions. 
 
 ### Characteristics
 - **Condition Check**: The condition for entering the loop is false right from the beginning.
@@ -23,7 +23,7 @@ A zero-iteration condition refers to a situation where a loop or a similar const
 - **Clarity**: Clearly communicates that certain code should not run under specific conditions.
 
 ### Drawbacks
-- **Limited Execution**: If the condition is incorrectly defined, it may lead to scenarios where necessary code is skipped or not executed when needed.
+- **Limited amount of Execution**: If the condition is incorrectly defined, it may lead to scenarios where necessary code is skipped or not executed when needed.
 
 # Infinite Loops
 ### Definition
@@ -45,9 +45,9 @@ An infinite loop is a loop that continues to execute indefinitely because its te
 - **Flexibility**: Allows for dynamic and continuous handling of events or user inputs.
 
 ### Drawbacks
-- **Resource Consumption**: Can lead to excessive use of CPU and memory if not managed properly.
-- **Potential for Errors**: If not controlled properly, can lead to unresponsive programs or system crashes.
-- **Difficulty in Termination**: Requires careful management of exit conditions to avoid creating unmanageable or buggy behavior.
+- **Resources**: Can lead to excessive use of CPU and memory if not managed properly.
+- **Potential Errors**: If not controlled properly, can lead to unresponsive programs or system crashes.
+- **Termination**: Requires careful management of exit conditions to avoid creating unmanageable or buggy behavior.
 
 # Comparison
 ### Execution Control
@@ -172,11 +172,10 @@ The Halting Problem is a classic example of an undecidable problem. It involves 
 
 ### Why It Is Undecidable
 
-The Halting Problem is undecidable because a hypothetical solution to it can lead to contradictions. Specifically, if we had a perfect algorithm to determine whether any given program halts, we could construct a paradoxical program that contradicts itself, demonstrating the impossibility of such an algorithm.
+If we had a perfect algorithm to determine whether any given program halts, we could construct a paradoxical program that contradicts itself, demonstrating the impossibility of such an algorithm.
 
 ### Example Code
 
-Below is an example code snippet that illustrates the Halting Problem. This code does not solve the Halting Problem but demonstrates why it is undecidable.
 
 ```python
 def halting_problem_simulator(program, input):
@@ -203,8 +202,6 @@ input_data = ""  # Not used in this example
 halting_problem_simulator(program_code, input_data)
 ```
 # Why This Example Demonstrates Undecidability
-## Undecidability: The provided code does not truly solve the Halting Problem. It merely illustrates that you cannot always determine if a given program (represented as a string) will halt or run forever.
-
-## Practical Example: In real-world scenarios, analyzing the behavior of arbitrary code to decide if it halts is not feasible due to the undecidability of the problem. No universal algorithm can decide halting for all possible programs and inputs.
+## Undecidability: The provided code does not truly solve the Halting Problem. It merely illustrates that you cannot always determine if a given program.
 
 
