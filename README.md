@@ -155,6 +155,8 @@ This script showcases how to use the `turtle` module for creating colorful, conc
 
 ## Complete the steps 17, 18 and 19
 + completed on the file pltw171819.py
++ output: ![image](https://github.com/user-attachments/assets/ecb7eff3-8377-4753-9aba-f744b9540596)
+
 
 # Project 5: Answer to 21
 - The algorithm from this activity that the flowchart represent is the program that we used and fixed earlier in this pltw 1.1.4 activity to avoid a zero iteration condition and make sure that we are able to draw five circles
